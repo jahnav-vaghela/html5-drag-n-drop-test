@@ -30,9 +30,7 @@
 #
 # -----------------------------------------------------------------
 
-# ignore everything in the root except the "wp-content" directory.
-/*
-!wp-content/
+dist/*
 
 # ignore all files starting with .
 .*

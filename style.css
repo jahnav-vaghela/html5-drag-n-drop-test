@@ -1,0 +1,32 @@
+
+#drop-container div,
+#drag-container div{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    background: url('./img/abad.jpg');
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drag-container,
+#drop-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+} 
+
+#drop-container div{ border: 1px solid #ccc; }
+
+
+.kg1{ background: url('./img/kg1.jpg'); background-size: cover; }
+.abad{ background: url('./img/abad.jpg'); background-size: cover; }
+.gif1{ background-image: url('./img/gif1.gif'); }
+.gif2{ background-image: url('./img/gif2.gif'); }
+
+.dragging{ opacity: 0.5;}
+#drop-container .droping{ border: 3px solid green;}
