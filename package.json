@@ -2,10 +2,11 @@
   "name": "drag-n-drop-html5",
   "version": "1.0.0",
   "description": "html5 drag and drop api ",
-  "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel serve index.html"
+    "start": "npx parcel serve index.html",
+    "build": "npx parcel build index.js"
   },
   "author": "jahnav",
   "license": "ISC",
